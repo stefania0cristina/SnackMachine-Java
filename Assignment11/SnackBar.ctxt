@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SnackBar
+comment0.text=The\ SnackBar\ class\ represents\ a\ bar\ for\ students\ where\ multiple\ \r\n\ Snack\ Machines\ can\ be\ used.\r\n\r\n\ @author\ Stefania-Cristina\ Gheorghe\ \r\n\ @version\ 2022.12.09\r\n
+comment1.params=numOfStudents\ packetCount\ packetCost
+comment1.target=SnackBar(int,\ int,\ int)
+comment1.text=Constructor\ method\r\n@param\ NumOfStudents\ represents\ the\ students\ in\ the\ snack\ bar\r\n@param\ PacketCount\ represents\ the\ packets\ in\ the\ snack\ macine\ \r\n@param\ PacketCost\ represents\ the\ price\ of\ a\ pack\r\n
+comment2.params=
+comment2.target=java.lang.String\ randomFlavour()
+comment2.text=method\ uses\ the\ random\ object\ to\ index\ a\ random\ crisps\ flavour\ \r\n\ @return\ A\ string\ that\ returns\ the\ random\ flavour\ \ \r\n
+comment3.params=
+comment3.target=void\ describe()
+comment3.text=method\ prints\ summary\ of\ students\ at\ the\ snack\ bar\ and\ the\ stock\ in\ \r\n\ the\ machine\r\n
+comment4.params=nSteps
+comment4.target=void\ runSnackBar(int)
+comment4.text=method\ that\ carries\ out\ instructions\ a\ given\ amount\ of\ times\ \r\n\ @param\ nSteps\ the\ number\ of\ steps\ to\ run\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=param\ Args\ which\ (I\ am\ hoping)\ allows\ the\ project\ to\ run\ without\ bluej\r\n\ it\ will\ first\ try\ to\ parse\ the\ arguments\ and\ if\ it\ will\ be\ invalid,\ \r\n\ it\ will\ use\ the\ defaults\ \r\n
+numComments=6

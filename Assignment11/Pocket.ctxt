@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pocket
+comment0.text=\ The\ Pocket\ class\ is\ used\ to\ store\ each\ student's\ pennies.\r\n\r\n\ @author\ Stefania-Cristina\ Gheorghe\r\n\ @version\ 2022.12.09\r\n
+comment1.params=pocketSize
+comment1.target=Pocket(int)
+comment1.text=method\ adds\ pennies\ to\ the\ HashSet\r\n\ @param\ pocketSize\ represents\ the\ amount\ of\ pennies\ in\ the\ pocket.\ \r\n
+comment2.params=
+comment2.target=int\ pennyCount()
+comment2.text=method\ to\ count\ the\ pennies\ in\ a\ pocket\r\n\ @return\ An\ int\ that\ represents\ the\ amount\ of\ pennies\ in\ the\ pocket.\r\n
+comment3.params=
+comment3.target=Penny\ removePenny()
+comment3.text=\ method\ to\ remove\ one\ penny\r\n\ @return\ It\ returns\ the\ removed\ penny.\r\n\ @return\ In\ the\ case\ that\ there\ are\ no\ more\ pennies\ left\ in\ the\ \r\n\ pocket\ it\ will\ return\ null.\ \r\n
+numComments=4

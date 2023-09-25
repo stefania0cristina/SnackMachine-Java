@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SnackMachine
+comment1.params=maxCapacity\ packCost
+comment1.target=SnackMachine(int,\ int)
+comment1.text=initialising\ fields\r\n@param\ maxCapacity-\ max\ number\ of\ packs\ in\ the\ machine\ \r\n@param\ packCost\ -\ cost\ per\ packet\ \r\n
+comment2.params=
+comment2.target=int\ getCost()
+comment2.text=method\ that\ outputs\ the\ cost\ of\ 1\ pack\r\n\ @return\ An\ int\ representing\ the\ cost.\r\n
+comment3.params=pack
+comment3.target=void\ addPack(PackOfCrisps)
+comment3.text=method\ to\ add\ a\ pack\ in\ the\ machine\ unless\ it\ hit\ its\ max\ capacity\r\n\ in\ case\ it\ hit\ max\ capacity,\ output\ message.\r\n
+comment4.params=flavour
+comment4.target=int\ countPacks(java.lang.String)
+comment4.text=method\ that\ returns\ number\ of\ packs\ with\ specific\ flavour\ \r\n\ @return\ An\ int\ that\ returns\ the\ number\ of\ packs\ with\ the\ specified\ \r\n\ flavour.\r\n
+comment5.params=penny
+comment5.target=void\ insertMoney(Penny)
+comment5.text=method\ to\ insert\ 1\ penny\ at\ a\ time\r\n
+comment6.params=flavour
+comment6.target=PackOfCrisps\ buyPack(java.lang.String)
+comment6.text=method\ to\ buy\ a\ pack\ of\ crisps\ if\ enough\ pennies\ inserted\r\n\ @return\ If\ the\ purchase\ went\ through\ smoothly,\ it\ will\ return\ the\r\n\ bought\ pack\ of\ crisps.\r\n\ @return\ If\ the\ flavour\ selected\ by\ the\ user\ is\ out\ of\ stock,\ \r\n\ it\ will\ print\ appropriate\ message\ to\ inform\ user\ of\ the\ issue.\r\n\ @return\ If\ there\ were\ not\ enough\ pennies\ inserted\ in\ the\ machine,\ \r\n\ it\ will\ print\ out\ appropriate\ message\ to\ inform\ user.\r\n
+comment7.params=
+comment7.target=void\ describe()
+comment7.text=method\ to\ print\ the\ packets\ left\ and\ amount\ of\ pennies\ in\ the\ machine\ \r\n
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\ The\ Student\ class\ represents\ a\ student.\r\n\r\n\ @author\ Stefania-Cristina\ Gheorghe\r\n\ @version\ 2022.12.09\r\n
+comment1.params=flavour\ machine
+comment1.target=Student(java.lang.String,\ SnackMachine)
+comment1.text=method\ to\ add\ new\ student\ \r\n\ @param\ Flavour\ represents\ the\ student's\ favourite\ flavour\r\n\ @param\ Machine\ represents\ the\ machine\ that\ the\ student\ might\ use\r\n\ to\ buy\ crisps\ of\ that\ flavour\r\n\ StudentID\ increments\ by\ 1\ and\ updates\ teh\ field.A\ pocket\ will\ be\r\n\ created\ containing\ 20\ pennies\ and\ the\ packets\ bought\ will\ be\ set\r\n\ set\ to\ null.\ \r\n
+comment2.params=
+comment2.target=void\ buyCrisps()
+comment2.text=Buying\ a\ pack\ of\ crips\ from\ the\ machine\r\n\ If\ a\ student\ has\ enough\ pennies(if\ not\ print\ appropriate\ message)\r\n\ and\ their\ favourite\ flavour\ is\ in\ stock(if\ not\ print\ appropriate\r\n\ message),\ insert\ coins\=cost\ of\ pack\ from\ student's\ pocket\ and\ update\ \r\n\ the\ bought\ packet\ from\ null\ to\ the\ packet\ bought.\ \r\n
+comment3.params=
+comment3.target=void\ snackTime()
+comment3.text=Eating\ crisps\ from\ a\ packet\ \r\nChecking\ if\ student\ has\ bought\ the\ packet(if\ not\ print\ appropriate\r\nmessage)and\ if\ pack\ has\ been\ opened\ (if\ not\ print\ appropriate\ \r\nmessage).\ Check\ if\ pack\ is\ not\ empty(if\ not\ print\ appropriate\ message)\r\nAssuming\ that\ the\ student\ has\ an\ opened\ packet\ that\ is\ not\ empty,\ \r\nit\ will\ allow\ the\ student\ to\ eat\ out\ of\ that\ pack..SNACK\ TIME\!\r\n
+numComments=4
